@@ -1,12 +1,30 @@
 body{
+background-color: #b2290a;
 
-
+}
+.body-content{
+  background-color: white;
+  border-radius: 10px !important;
+}
+.header-content{
+  background-color: white;
+  border-radius: 0 0 10px 10px !important;
 }
 .logo{
-
+vertical-align: middle;
+padding-top: 5px;
 }
 .menu-principal{
+  background-color: #eec20b;
+  margin-bottom: 0;
+}
+.menu-principal li{
+  border-radius: 50x;
 
+}
+
+.menu-principal li:hover{
+  background-color: #bc9905;
 }
 
 textarea{
@@ -14,4 +32,50 @@ textarea{
 }
 .nav li a{
 
+}
+.social-bar{
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+   opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+   background: #3B5998;
+   color: white;
+   border-radius: 15% 0 0 15% ;
+}
+
+/* Twitter */
+.fa-twitter {
+   background: #55ACEE;
+   color: white;
+}
+.fa-google{
+  background-color: #dd4b39;
+  color: white;
+  border-radius:  0 15% 15% 0 ;
+}
+.fa-linkedin{
+  background-color: #007bb5;
+  color: white;
+}
+.fa {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+   margin: 0;
+}
+
+.category-search{
+  padding-top: 20px;
 }
